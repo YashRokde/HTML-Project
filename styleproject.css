@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+
+}
+body{
+    margin: 0px;
+}
+section{
+    text-align: center;
+    padding-top: 40px;
+    height: 100vh;
+}
+section:nth-child(even){
+    background-color:whitesmoke;
+}
+h2{
+    padding-bottom: 40px;
+}
+header{
+    background-color: black;
+}
+.banner{
+    background-image: url(../clgproject/heading.gif);
+    height: 30vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 50%;
+}
+section h2 span{
+    background: linear-gradient(to right,#f5d837,#bbb812);
+    padding: 10px 55px;
+    border-radius: 20px;
+}
+
+.btn1{
+    border-radius: 30px;
+     font-size: 30px;
+    background-color: seashell;
+    padding: 6px;
+    box-shadow:10px 10px 0 rgba(0,0,0,.5);
+    cursor: pointer;    
+}
+.btn1:hover{
+    border: 1px solid #f44336;
+    background:#fa1606;
+    transition: 1s;
+    box-shadow: 0 0 0 ;
+}
+.btn2{
+    border-radius: 50%;
+     font-size: 30px;
+     border-color: black;
+    background-color:whitesmoke;
+    padding: 6px;
+    cursor: pointer; 
+    box-shadow:10px 10px 0 rgba(0,0,0,.5);   
+}
+.btn2:hover{
+    border: 1px solid #f44336;
+    background:hsl(226, 96%, 50%);
+    transition: 1s;
+    box-shadow: 0 0 0 ;
+}
+  
+  .button {
+    background:yellow;
+    box-shadow:10px 10px 0 rgba(0,0,0,.5);
+    display:inline-block;
+    font-size:2em;
+    padding:.5em 2em;
+    text-decoration:none;
+  }
+  
+  .button:hover {
+  
+    box-shadow: 0 0 0 ;
+  }
+  
+  .parallelogram{
+    transform: skew(-20deg);
+  }
+  
+  .skew-fix{
+    display:inline-block;
+    transform: skew(20deg);
+  }
+
+  .btn4{
+    border-radius: 5px 25px;
+     font-size: 30px;
+    background-color: chartreuse;
+    padding: 6px;
+    box-shadow:10px 10px 0 rgba(0,0,0,.5);
+    cursor: pointer;    
+}
+.btn4:hover{
+    border: 1px solid #f44336;
+    background:#39e0e6;
+    transition: 1s;
+    box-shadow: 0 0 0 ;
+}
+.btn5{
+    border-radius: 50%;
+     font-size: 50px;
+    background-color: seashell;
+    padding: 6px;
+    box-shadow:10px 10px 0 rgba(0,0,0,.5);
+    cursor: pointer;
+    font-family: fantasy;    
+}
+.btn5:hover{
+    border: 1px solid #f44336;
+    background:#a0e919;
+    transition: 1s;
+    box-shadow: 0 0 0 ;
+}
